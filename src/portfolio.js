@@ -23,7 +23,7 @@ const greeting = {
   username: "Harsh Bhilwar",
   title: "Hi all, I'm Harsh",
   subTitle: emoji(
-    "Full Stack Software Developer\n Focused on building scalable web applications, backend systems, and AI-powered solutions. Skilled in RESTful APIs, database design, and delivering efficient, real-world applications using modern technologies.\n 🚀 Built AI platforms, E-commerce platforms, and full-stack systems"
+    "Software Developer with Full Stack expertise.\n Focused on building scalable web applications, backend systems, and AI-powered solutions.\n 🚀 Developed real-world projects including AI platforms and full-stack applications."
   ),
   resumeLink: "/resume.pdf",
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -52,7 +52,7 @@ const skillsSection = {
     emoji("⚡ Develop RESTful APIs and backend systems with Node.js and Express"),
     emoji("⚡ Create AI-powered features using OpenAI and Google Gemini APIs"),
     emoji("⚡ Design and manage databases using MongoDB, PostgreSQL, and SQL"),
-    emoji("⚡ Build real-world projects like SigmaGPT and AI-based job preparation platforms"
+    emoji("⚡ Build real-world projects like SigmaAI and AI-based job preparation platforms"
 ),
   ],
 
@@ -243,8 +243,8 @@ const bigProjects = {
   title: "Big Projects",
   projects: [
     {
-      image: require("./assets/images/sigmagptLogo.png"),
-      projectName: "SigmapGPT",
+      image: require("./assets/images/sigmaAILogo.png"),
+      projectName: "SigmaAI",
       projectDesc: "An AI-powered conversational platform with real-time responses, image generation, persistent chat history, and image download/copy features for an interactive user experience.",
       footerLink: [
         {
